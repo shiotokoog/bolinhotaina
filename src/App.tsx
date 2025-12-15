@@ -77,13 +77,13 @@ const BACKGROUND_FADE_START = Math.max(
 );
 
 const TYPED_LINES = [
-  "> tina",
+  "> tainá",
   "...",
-  "> today is your birthday",
+  "> te amo neném",
   "...",
-  "> so i made you this computer program",
+  "> fiz isso aq só pra celebrar nosso amor",
   "...",
-  "٩(◕‿◕)۶ ٩(◕‿◕)۶ ٩(◕‿◕)۶"
+  "<3"
 ];
 const TYPED_CHAR_DELAY = 100;
 const POST_TYPING_SCENE_DELAY = 1000;
@@ -539,7 +539,7 @@ export default function App() {
         </div>
       </div>
       {hasAnimationCompleted && isCandleLit && (
-        <div className="hint-overlay">press space to blow out the candle</div>
+        <div className="hint-overlay">aperte espaço para assoprar a velinha</div>
       )}
       <Canvas
         gl={{ alpha: true }}
